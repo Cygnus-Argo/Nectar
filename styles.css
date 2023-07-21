@@ -160,7 +160,9 @@ h1 {
 }
 
 @media screen and (max-width: 682px) {
-
+    .breakpoint {
+        height: 100vh;
+    }
     .logo {
         width: 160px;
     }
@@ -202,7 +204,5 @@ h1 {
     }
     /* Aumentado el tamaño de width. */
 
-    .stars {
-    bottom: 0px;
-}
+
 }
