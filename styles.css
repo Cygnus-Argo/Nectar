@@ -37,7 +37,12 @@ button {
     outline: none;
     cursor: pointer;
 }
-
+button a {
+    color: #fbfcfd;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
 .content {
     color: #fbfcfd;
     position: absolute;
