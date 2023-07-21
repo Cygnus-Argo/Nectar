@@ -160,9 +160,7 @@ h1 {
 }
 
 @media screen and (max-width: 682px) {
-    *{
-        max-height: 100vh;
-    }
+
     .logo {
         width: 160px;
     }
@@ -203,4 +201,8 @@ h1 {
         margin: 0;
     }
     /* Aumentado el tamaño de width. */
+
+    .stars {
+    bottom: 0px;
+}
 }
