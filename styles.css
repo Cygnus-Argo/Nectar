@@ -158,3 +158,46 @@ h1 {
     animation-delay: 7s;
     width: 35px;
 }
+
+@media screen and (max-width: 682px) {
+    .logo {
+        width: 160px;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .side-bar {
+        width: 100%;
+        height: 50px;
+        top: auto;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    
+    .social-links img, .useful-links img {
+        border: 1px solid #fff; /* Agrega un borde blanco de 1px */
+        border-radius: 50%; /* Hace que el borde sea circular */
+        padding: 3px; /* Añade un pequeño espaciado desde el borde del círculo al ícono */
+    }
+    .social-links{
+        width: auto;
+        position: unset;
+        transform: none;
+    }
+    
+    .useful-links{
+        width: auto;
+        position: unset;
+    }
+    .menu {
+        width: 18px;
+        margin: 0;
+    }
+    /* Aumentado el tamaño de width. */
+}
